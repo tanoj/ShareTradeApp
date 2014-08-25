@@ -1,0 +1,20 @@
+/* Show change directive*/
+.td-show-change-pipe {
+    display:inline-block;
+    width: 3px;
+    height:100%;
+    line-height:100%;
+    vertical-align: middle;
+    border-color: transparent;
+}
+.td-show-change-pipe:after{
+    content: '.';
+    width: 0;
+    color: transparent;
+}
+.td-show-change-pipe.sc-up {
+   background-color: #009D28;
+}
+.td-show-change-pipe.sc-down {
+    background-color:#FF1717;
+}

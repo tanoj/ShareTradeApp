@@ -1,0 +1,57 @@
+<section ng-init="init()">
+	<hr />
+	<div class="grid-container">
+		<section data-rel="trader-controls"
+                 ng-if="!!loggedInUser" >
+			<div class="pull-left">
+				<button class="btn btn-default"
+                        ng-click="createOrder()">
+                    Trade
+                </button>
+				<button class="btn btn-default"
+                        ng-click="deleteAllOrders()">
+                    Delete All
+                </button>
+				<button class="btn btn-default"
+                        ng-click="refresh()">
+                    Refresh
+                </button>
+			</div>
+                    
+                    
+            <div class="pull-right">
+                                 
+                <button class="btn btn-default"
+                        ng-disabled="currentView=='table'"
+                        ng-click="switchToView('table')">
+                    <i class="glyphicon glyphicon-th-list glyphicon-white"></i>
+                </button>
+                                                      
+                <button class="btn btn-default"
+                        ng-disabled="currentView=='chart'"
+                        ng-click="switchToView('d3chart')">
+                    <i class="glyphicon glyphicon-signal"></i>
+                </button>
+                    
+                   
+            </div>
+			<div class="clearfix"></div>
+		</section>
+
+        <div class="orders-table"
+             ng-if="currentView=='table'"
+             ng-include="'pages/orders/components/table-grid/orders-table-grid.html'">
+        </div>
+
+        <div  ng-if="currentView=='d3chart'">
+            <orders-bar-chart orders="orders"></orders-bar-chart>
+        </div>
+
+        <div  ng-if="currentView=='chart'">
+            <orders-floating-bars orders="orders"></orders-floating-bars>
+        </div>
+
+		<div class="no-orders-message"
+             ng-show="orders.length==0">No Orders To Show</div>
+
+</section>

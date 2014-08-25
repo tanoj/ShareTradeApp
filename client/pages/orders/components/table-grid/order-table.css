@@ -1,0 +1,34 @@
+.grid-orders {
+    min-height: 500px;
+}
+/* Columns */
+.col-limit-status {
+  min-width: 75px;
+}
+
+.col-limit-status.new {
+  color: red;
+}
+.col-limit-status.placed {
+  color: blue;
+}
+.col-limit-status.executed {
+  color: green;
+}
+@media (max-width: 565px) and (min-width: 321px){
+	.order-table .col-creation-time{
+		display: none;
+	}
+	.order-table .col-placed{
+		display: none;
+	}
+	.order-table .col-executed{
+		display: none;
+	}
+	.order-table .col-priority{
+		display: none;
+	}
+	.order-table .col-trader {
+		display: none;
+	}
+}

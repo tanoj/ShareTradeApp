@@ -1,0 +1,23 @@
+{
+  "name": "angular-seed",
+  "description": "Share Trade sample Application",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-animate": "x",
+    "ng-grid":"x",
+    "ngInfiniteScroll": "x",
+    "angularLocalStorage":"x",
+    "angular-mocks": "~1.2.x",
+    "html5-boilerplate": "~4.3.0",
+    "angular-bootstrap": "0.11.x",
+    "bootstrap": "3.x",
+    "lodash": "x",
+    "d3": "x"
+  }
+}

@@ -1,0 +1,46 @@
+.chartHolder {
+}
+.chartHolder .headerChartDiv {
+  text-align: center;
+  font-family: Arial;
+  padding: 30px 0 30px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.chart-legends {
+  display: inline-block;
+  margin-top: 30px;
+}
+.legends {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+.chart-legends .legend {
+  padding: 3.4px;
+}
+.chart-legends .box-total-order {
+  background-color: #FFF4CE;
+}
+.chart-legends .box-placed {
+  background-color: #FDBD5A;
+}
+.chart-legends .box-executed {
+  background-color: #FD8300;
+}
+
+.chart-legends .box {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+.chart-legends .legend-text {
+  font-size: 0.9em;
+  margin-left: 6px;
+  font-family: Arial;
+}
+.yLabelMobile {
+  display: none;
+}

@@ -1,0 +1,189 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\nodeapps\\tdapps',
+6 verbose install   [ 'express',
+6 verbose install     'socket.io',
+6 verbose install     'underscore',
+6 verbose install     'grunt',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-compass',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-requirejs',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'karma',
+6 verbose install     'protractor',
+6 verbose install     'http-server',
+6 verbose install     'bower',
+6 verbose install     'shelljs',
+6 verbose install     'karma-junit-reporter' ] ]
+7 info preinstall trader-desktop@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping express@3.x C:\nodeapps\tdapps
+10 verbose already installed skipping socket.io@0.9.x C:\nodeapps\tdapps
+11 verbose already installed skipping underscore@1.4.x C:\nodeapps\tdapps
+12 verbose already installed skipping grunt@0.4.x C:\nodeapps\tdapps
+13 verbose already installed skipping grunt-contrib-clean@0.4.x C:\nodeapps\tdapps
+14 verbose already installed skipping grunt-contrib-compass@0.1.x C:\nodeapps\tdapps
+15 verbose already installed skipping grunt-contrib-copy@0.4.x C:\nodeapps\tdapps
+16 verbose already installed skipping grunt-contrib-jshint@0.2.x C:\nodeapps\tdapps
+17 verbose already installed skipping grunt-contrib-requirejs@0.4.x C:\nodeapps\tdapps
+18 verbose already installed skipping grunt-contrib-watch@0.3.x C:\nodeapps\tdapps
+19 verbose already installed skipping karma@~0.10 C:\nodeapps\tdapps
+20 verbose already installed skipping protractor@~0.20.1 C:\nodeapps\tdapps
+21 verbose already installed skipping http-server@^0.6.1 C:\nodeapps\tdapps
+22 verbose already installed skipping bower@^1.3.1 C:\nodeapps\tdapps
+23 verbose already installed skipping shelljs@^0.2.6 C:\nodeapps\tdapps
+24 verbose already installed skipping karma-junit-reporter@^0.2.2 C:\nodeapps\tdapps
+25 silly resolved []
+26 info build C:\nodeapps\tdapps
+27 verbose linkStuff [ false, false, false, 'C:\\nodeapps' ]
+28 info linkStuff trader-desktop@0.0.0
+29 verbose linkBins trader-desktop@0.0.0
+30 verbose linkMans trader-desktop@0.0.0
+31 verbose rebuildBundles trader-desktop@0.0.0
+32 verbose rebuildBundles [ '.bin',
+32 verbose rebuildBundles   'bower',
+32 verbose rebuildBundles   'express',
+32 verbose rebuildBundles   'grunt',
+32 verbose rebuildBundles   'grunt-contrib-clean',
+32 verbose rebuildBundles   'grunt-contrib-compass',
+32 verbose rebuildBundles   'grunt-contrib-copy',
+32 verbose rebuildBundles   'grunt-contrib-jshint',
+32 verbose rebuildBundles   'grunt-contrib-requirejs',
+32 verbose rebuildBundles   'grunt-contrib-watch',
+32 verbose rebuildBundles   'http-server',
+32 verbose rebuildBundles   'karma',
+32 verbose rebuildBundles   'karma-chrome-launcher',
+32 verbose rebuildBundles   'karma-coffee-preprocessor',
+32 verbose rebuildBundles   'karma-firefox-launcher',
+32 verbose rebuildBundles   'karma-html2js-preprocessor',
+32 verbose rebuildBundles   'karma-jasmine',
+32 verbose rebuildBundles   'karma-junit-reporter',
+32 verbose rebuildBundles   'karma-phantomjs-launcher',
+32 verbose rebuildBundles   'karma-requirejs',
+32 verbose rebuildBundles   'karma-script-launcher',
+32 verbose rebuildBundles   'protractor',
+32 verbose rebuildBundles   'requirejs',
+32 verbose rebuildBundles   'shelljs',
+32 verbose rebuildBundles   'socket.io',
+32 verbose rebuildBundles   'underscore' ]
+33 verbose rebuild bundle C:\nodeapps\tdapps\node_modules\karma-chrome-launcher
+34 info build C:\nodeapps\tdapps\node_modules\karma-chrome-launcher
+35 info preinstall karma-chrome-launcher@0.1.4
+36 verbose linkStuff [ false, false, false, 'C:\\nodeapps\\tdapps\\node_modules' ]
+37 info linkStuff karma-chrome-launcher@0.1.4
+38 verbose linkBins karma-chrome-launcher@0.1.4
+39 verbose linkMans karma-chrome-launcher@0.1.4
+40 verbose rebuildBundles karma-chrome-launcher@0.1.4
+41 info install karma-chrome-launcher@0.1.4
+42 info postinstall karma-chrome-launcher@0.1.4
+43 verbose rebuild bundle C:\nodeapps\tdapps\node_modules\karma-coffee-preprocessor
+44 info build C:\nodeapps\tdapps\node_modules\karma-coffee-preprocessor
+45 info preinstall karma-coffee-preprocessor@0.1.3
+46 verbose linkStuff [ false, false, false, 'C:\\nodeapps\\tdapps\\node_modules' ]
+47 info linkStuff karma-coffee-preprocessor@0.1.3
+48 verbose linkBins karma-coffee-preprocessor@0.1.3
+49 verbose linkMans karma-coffee-preprocessor@0.1.3
+50 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
+51 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+52 info install karma-coffee-preprocessor@0.1.3
+53 info postinstall karma-coffee-preprocessor@0.1.3
+54 verbose rebuild bundle C:\nodeapps\tdapps\node_modules\karma-firefox-launcher
+55 info build C:\nodeapps\tdapps\node_modules\karma-firefox-launcher
+56 info preinstall karma-firefox-launcher@0.1.3
+57 verbose linkStuff [ false, false, false, 'C:\\nodeapps\\tdapps\\node_modules' ]
+58 info linkStuff karma-firefox-launcher@0.1.3
+59 verbose linkBins karma-firefox-launcher@0.1.3
+60 verbose linkMans karma-firefox-launcher@0.1.3
+61 verbose rebuildBundles karma-firefox-launcher@0.1.3
+62 info install karma-firefox-launcher@0.1.3
+63 info postinstall karma-firefox-launcher@0.1.3
+64 verbose rebuild bundle C:\nodeapps\tdapps\node_modules\karma-html2js-preprocessor
+65 info build C:\nodeapps\tdapps\node_modules\karma-html2js-preprocessor
+66 info preinstall karma-html2js-preprocessor@0.1.0
+67 verbose linkStuff [ false, false, false, 'C:\\nodeapps\\tdapps\\node_modules' ]
+68 info linkStuff karma-html2js-preprocessor@0.1.0
+69 verbose linkBins karma-html2js-preprocessor@0.1.0
+70 verbose linkMans karma-html2js-preprocessor@0.1.0
+71 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+72 info install karma-html2js-preprocessor@0.1.0
+73 info postinstall karma-html2js-preprocessor@0.1.0
+74 verbose rebuild bundle C:\nodeapps\tdapps\node_modules\karma-jasmine
+75 info build C:\nodeapps\tdapps\node_modules\karma-jasmine
+76 info preinstall karma-jasmine@0.1.5
+77 verbose linkStuff [ false, false, false, 'C:\\nodeapps\\tdapps\\node_modules' ]
+78 info linkStuff karma-jasmine@0.1.5
+79 verbose linkBins karma-jasmine@0.1.5
+80 verbose linkMans karma-jasmine@0.1.5
+81 verbose rebuildBundles karma-jasmine@0.1.5
+82 info install karma-jasmine@0.1.5
+83 info postinstall karma-jasmine@0.1.5
+84 verbose rebuild bundle C:\nodeapps\tdapps\node_modules\karma-phantomjs-launcher
+85 info build C:\nodeapps\tdapps\node_modules\karma-phantomjs-launcher
+86 info preinstall karma-phantomjs-launcher@0.1.4
+87 verbose linkStuff [ false, false, false, 'C:\\nodeapps\\tdapps\\node_modules' ]
+88 info linkStuff karma-phantomjs-launcher@0.1.4
+89 verbose linkBins karma-phantomjs-launcher@0.1.4
+90 verbose linkMans karma-phantomjs-launcher@0.1.4
+91 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+92 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+93 info install karma-phantomjs-launcher@0.1.4
+94 info postinstall karma-phantomjs-launcher@0.1.4
+95 verbose rebuild bundle C:\nodeapps\tdapps\node_modules\karma-requirejs
+96 info build C:\nodeapps\tdapps\node_modules\karma-requirejs
+97 info preinstall karma-requirejs@0.2.2
+98 verbose linkStuff [ false, false, false, 'C:\\nodeapps\\tdapps\\node_modules' ]
+99 info linkStuff karma-requirejs@0.2.2
+100 verbose linkBins karma-requirejs@0.2.2
+101 verbose linkMans karma-requirejs@0.2.2
+102 verbose rebuildBundles karma-requirejs@0.2.2
+103 info install karma-requirejs@0.2.2
+104 info postinstall karma-requirejs@0.2.2
+105 verbose rebuild bundle C:\nodeapps\tdapps\node_modules\karma-script-launcher
+106 info build C:\nodeapps\tdapps\node_modules\karma-script-launcher
+107 info preinstall karma-script-launcher@0.1.0
+108 verbose linkStuff [ false, false, false, 'C:\\nodeapps\\tdapps\\node_modules' ]
+109 info linkStuff karma-script-launcher@0.1.0
+110 verbose linkBins karma-script-launcher@0.1.0
+111 verbose linkMans karma-script-launcher@0.1.0
+112 verbose rebuildBundles karma-script-launcher@0.1.0
+113 info install karma-script-launcher@0.1.0
+114 info postinstall karma-script-launcher@0.1.0
+115 verbose rebuild bundle C:\nodeapps\tdapps\node_modules\requirejs
+116 info build C:\nodeapps\tdapps\node_modules\requirejs
+117 info preinstall requirejs@2.1.14
+118 verbose linkStuff [ false, false, false, 'C:\\nodeapps\\tdapps\\node_modules' ]
+119 info linkStuff requirejs@2.1.14
+120 verbose linkBins requirejs@2.1.14
+121 verbose link bins [ { 'r.js': './bin/r.js' },
+121 verbose link bins   'C:\\nodeapps\\tdapps\\node_modules\\.bin',
+121 verbose link bins   false ]
+122 verbose linkMans requirejs@2.1.14
+123 verbose rebuildBundles requirejs@2.1.14
+124 info install requirejs@2.1.14
+125 info postinstall requirejs@2.1.14
+126 info install trader-desktop@0.0.0
+127 info postinstall trader-desktop@0.0.0
+128 verbose unsafe-perm in lifecycle true
+129 error Error: spawn ENOENT
+129 error     at errnoException (child_process.js:1000:11)
+129 error     at Process.ChildProcess._handle.onexit (child_process.js:791:34)
+130 error If you need help, you may report this *entire* log,
+130 error including the npm and node versions, at:
+130 error     <http://github.com/npm/npm/issues>
+131 error System Windows_NT 6.1.7601
+132 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+133 error cwd C:\nodeapps\tdapps
+134 error node -v v0.10.29
+135 error npm -v 1.4.14
+136 error syscall spawn
+137 error code ENOENT
+138 error errno ENOENT
+139 verbose exit [ 1, true ]

@@ -1,0 +1,44 @@
+<div ng-controller="OrdersTableGridCtrl"
+     infinite-scroll='loadMore()'>
+    <table class="table table-striped table-condensed order-table">
+        <thead>
+        <tr>
+            <th class="col-id">Id</th>
+            <th class="col-creation-time">Creation Time</th>
+            <th class="col-side text-center">Side</th>
+            <th class="col-symbol text-center">Symbol</th>
+            <th class="col-quantity text-right">Quantity</th>
+            <th class="col-placed text-right">Placed</th>
+            <th class="col-executed text-right">Executed</th>
+            <th class="col-limit-price text-right">Limit Price</th>
+            <th class="col-limit-priority text-right">Priority</th>
+            <th class="col-limit-status text-center">Status</th>
+            <th class="col-limit-trader">Trader</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="order in orders | limitTo:totalDisplayed track by order.id" >
+            <td class="col-id">{{order.id}}</td>
+            <td class="col-creation-time">{{order.creationTime}}</td>
+            <td class="col-side text-center">{{order.side}}</td>
+            <td class="col-symbol text-center">{{order.symbol}}</td>
+            <td class="col-quantity text-right">{{order.quantity}}</td>
+            <td class="col-placed text-right">
+                {{order.quantityPlaced}}
+                <td-show-change ng-model="order.quantityPlaced"></td-show-change>
+            </td>
+            <td class="col-executed text-right">
+                {{order.quantityExecuted}}
+                <td-show-change ng-model="order.quantityExecuted"></td-show-change>
+            </td>
+            <td class="col-limit-price text-right">${{order.limitPrice}}</td>
+            <td class="col-limit-priority text-right">{{order.priority}}</td>
+            <td class="col-limit-status text-center"
+                ng-class="order.status.toLowerCase()">
+                {{order.status}}
+            </td>
+            <td class="col-limit-trader">{{order.traderId}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,54 @@
+<div>
+    <div class="chart-legends-ofb">
+        <div class="legends-ofb text-center">
+            <div class='legend-ofb'>
+                <div class="box-total-order box"></div>
+                <span  class= "legend-text">Total Order</span>
+            </div>
+            <div class='legend-ofb text-left'>
+                <div class="box-placed box"></div>
+                <span  class= "legend-text">Placed</span>
+            </div>
+            <div class='legend-ofb text-left'>
+                <div class="box-executed box"></div>
+                <span  class= "legend-text">Executed</span>
+            </div>
+        </div>
+    </div>
+
+    <div infinite-scroll='loadMore()'>
+        <div class="ofb"
+            ng-repeat="o in orders | limitTo:totalDisplayed track by o.id">
+            <div class="ofb-info text-center"><em>Id:</em>{{o.id}}</div>
+            <div class="ofb-bar">
+                <svg class="ofb-quantity" width="100%" height=60>
+                    <rect class="ofb-quantity-placed"
+                          height=40
+                          ng-attr-width="{{widthPercent(o.quantityPlaced, o.quantity)}}%">
+                    </rect>
+                    <rect class="ofb-quantity-executed"
+                          height=40
+                          ng-attr-width="{{widthPercent(o.quantityExecuted, o.quantity)}}%">
+                    </rect>
+                    <g class="x axis">
+                        <g class="tick" transform="translate(0, 47)" style="opacity: 1;">
+                            <line y2="-6" x2="0" fill="none" shape-rendering="crispEdges" stroke="#000"></line>
+                            <text y=6 x=1 dy="0em" style="text-anchor: start;">0</text>
+                        </g>
+                        <g class="tick" transform="translate(150, 47)" style="opacity: 1;">
+                            <line y2="-6" x2="0" fill="none" shape-rendering="crispEdges" stroke="#000"></line>
+                            <text y=6 x=-1 dy="0em" style="text-anchor: end;">{{o.quantity/2| number:0}}</text>
+                        </g>
+                        <g class="tick" transform="translate(299, 47)" style="opacity: 1;">
+                            <line y2="-6" x2="0" fill="none" shape-rendering="crispEdges" stroke="#000"></line>
+                            <text y=6 x=0 dy="0em" style="text-anchor: end;">{{o.quantity}}</text>
+                        </g>
+                        <g transform="translate(0, 42)">
+                            <rect y="-1" x="0" height="1" width="100%"></rect>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
