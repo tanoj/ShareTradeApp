@@ -1,8 +1,5 @@
 # Share Trading Application
 
-This is an exercise in learning key web technologies using a simple trading scenario. We will use the following technologies and frameworks to complete this exercise:
-(The actual repo (backbone version) would be available at https://github.com/archfirst/trader-desktop)
-
 * Node.js
 * AngularJS
 * jQuery
