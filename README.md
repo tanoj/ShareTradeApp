@@ -41,11 +41,6 @@ You need git to clone the angular-seed repository. You can get it from
 We also use a number of node.js tools to initialize and test angular-seed. You must have node.js and
 its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
 
-### Clone trader-desktop-angular
-
-Clone the angular-seed repository using [git][git]:
-
-
 
 ### Install Dependencies
 
